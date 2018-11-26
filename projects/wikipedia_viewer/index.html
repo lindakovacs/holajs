@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Wikipedia Viewer - FreeCodeCamp</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css'>
+    <link href='https://fonts.googleapis.com/css?family=Raleway' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+    </script>
+</head>
+
+<body>
+    <div class="container">
+        <div class="text-center">
+            <div class="heading">
+                <h1>Wikipedia Viewer</h1>
+                <h2>FreeCodeCamp - Front End Developement</h2>
+            </div>
+        </div>
+        <div class="row">
+            <input id="search" type="search" placeholder="Search Wikipedia..." class="form-control">
+            <button id="searchTerm" type="button" class="btn btn-primary">Wiki Search</button>
+        </div>
+        <div class="row">
+            <button class="button btn btn-success" href="http://en.wikipedia.org/wiki/Special:Random" target="_blank">Random
+                Article!</button>
+        </div>
+        <!-- <div id ="results"></div> -->
+        <article class="results">
+        </article>
+    </div>
+
+    <footer class="footer">
+        <div class="text-center">&copy 2018 Made with &#10084; by Linda Kovacs</div>
+    </footer>
+
+    <script type="text/javascript" src="js/index.js"></script>
+</body>
+
+</html>
